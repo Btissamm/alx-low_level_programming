@@ -12,8 +12,8 @@ for (i = 48; i <= 57; i++)
 {
 	for (j = 48; j <= 57; j++)
 		{
-			putchar(ij)
+			putchar(ij);
 		}
 }
-return (0);
-}
+putchar('\n');
+return (0);}
