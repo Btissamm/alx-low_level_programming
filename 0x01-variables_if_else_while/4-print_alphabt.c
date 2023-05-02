@@ -6,7 +6,9 @@
  */
 int main(void)
 {
-for (char ch ='a'; (ch < 'z') && (ch != 'q' && 'e'); ch++) 
+char ch;
+
+for (ch ='a'; (ch < 'z') && (ch != 'q' && 'e'); ch++) 
 	putchar (ch);
 return (0);
 }
