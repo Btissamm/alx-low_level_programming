@@ -9,9 +9,10 @@ int main(void)
 char ch;
 
 for (ch ='a'; (ch < 'z'); ch++) 
+{
 	if (ch != ('q' && 'e'))
-	putchar (ch);
-
+		putchar (ch);
+}
 putchar ('\n');
 return (0);
 }
