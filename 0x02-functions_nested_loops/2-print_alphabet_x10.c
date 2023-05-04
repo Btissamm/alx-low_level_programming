@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet_10 - prints alphabet
+ * print_alphabet_10(void) - prints alphabet
  *
  * Return: characters
  */
