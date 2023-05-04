@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _islower -lowercase function
+ * _islower - ch is lowercase function or not
  *
  * Return: 0 or 1
  */
