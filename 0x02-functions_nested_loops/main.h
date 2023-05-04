@@ -1,10 +1,4 @@
-#include <stdio.h>
+#ifndef main_h
+#define main_h
+int _putchar(char);
 void print_alphabet(void);
-void print_alphabet(void)
-{
-char ch;
-        for (ch = 'a'; ch <= 'z'; ch++)
-        {
-                _putchar(ch);
-        }
-}
