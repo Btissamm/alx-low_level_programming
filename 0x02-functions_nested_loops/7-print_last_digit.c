@@ -14,7 +14,7 @@ if (i < 0)
 }
 	else
 {
-	a = i;
+	a = i % 10;
 	return (a);
 }
 }
