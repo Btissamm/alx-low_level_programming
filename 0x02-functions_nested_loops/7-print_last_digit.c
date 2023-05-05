@@ -5,6 +5,9 @@
  * Return: last digit
  */
 int print_last_digit(int i)
-{
-	return(i%10);
+{if (i < 0)
+	i = -i;
+	return (i % 10);
+else
+	return (i % 10);
 }
