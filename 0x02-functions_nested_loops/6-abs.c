@@ -4,7 +4,7 @@
  * @i is the integer
  * Return: abs
  */
-int _abs(int)
+int _abs(i)
 {int i;
 	if(i<=0)
 		return (-i);
