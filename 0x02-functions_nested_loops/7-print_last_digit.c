@@ -5,9 +5,12 @@
  * Return: last digit
  */
 int print_last_digit(int i)
-{if (i < 0)
+{int a;
+if (i < 0)
 	i = -i;
-	return (i % 10);
+	a = i % 10
+	return (a);
 else
-	return (i % 10);
+	a = i;
+	return (a);
 }
