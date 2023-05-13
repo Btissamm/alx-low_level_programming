@@ -10,8 +10,8 @@ void fizzbuzz(void)
 	{ 	if (i % 3 != 0 && i % 5 != 0)
 			printf("%d",i);
 		else if (i % 3 == 0)
-			printf("Fizz",i);
+			printf("Fizz");
 		else if (i % 5 == 0)
-			printf("Buzz",i);
+			printf("Buzz");
 	}
 }
