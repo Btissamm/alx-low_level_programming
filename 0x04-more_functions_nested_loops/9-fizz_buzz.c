@@ -15,3 +15,8 @@ void fizzbuzz(void)
 			printf("Buzz");
 	}
 }
+int main(void)
+{
+	fizzbuzz();
+	return (0);
+}
