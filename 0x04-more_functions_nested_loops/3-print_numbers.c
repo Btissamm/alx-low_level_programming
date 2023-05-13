@@ -5,7 +5,7 @@
  * Return: 0
  */
  void print_numbers(void)
-{int a;
+{char a;
 	from (a = 48; a <= 57; a++)
 		_putchar(a);
 	return (0);
