@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * fizzbuzz - game
  * Return: fizz buzz test
