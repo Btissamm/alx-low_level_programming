@@ -14,7 +14,7 @@ void fizzbuzz(void)
 		else if (i % 5 == 0 && i % 3 != 0)
 			printf("Buzz ");
 		else if (i % 5 == 0 && i % 3 == 0)
-			printf("FizzBuzz");
+			printf("FizzBuzz ");
 	}
 }
 int main(void)
