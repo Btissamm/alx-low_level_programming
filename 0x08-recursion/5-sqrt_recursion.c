@@ -4,8 +4,10 @@
  * @n: the int
  * Return: result
  */
-int _sqrt_recursion(int n, int i)
+int _sqrt_recursion(int n)
 {
+	int i;
+
 	if (i * i > n)
 		return (-1);
 	if (i * i == n)
